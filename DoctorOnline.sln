@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorOnline.Domain", "DoctorOnline.Domain\DoctorOnline.Domain.csproj", "{8FA5D7D7-94A4-46B7-BDF2-620F33E0007B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorOnline.Application", "DoctorOnline.Application\DoctorOnline.Application.csproj", "{C2AFF446-994F-4F6C-821F-A3E3967413F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorOnline.Infrastructure", "DoctorOnline.Infrastructure\DoctorOnline.Infrastructure.csproj", "{06E3DDED-6471-4E7B-B4D8-6AE5FCD864BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorOnline.WebAPI", "DoctorOnline.WebAPI\DoctorOnline.WebAPI.csproj", "{33932A6D-4422-4FFA-A6A6-665C378C1C95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FA5D7D7-94A4-46B7-BDF2-620F33E0007B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA5D7D7-94A4-46B7-BDF2-620F33E0007B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA5D7D7-94A4-46B7-BDF2-620F33E0007B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA5D7D7-94A4-46B7-BDF2-620F33E0007B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2AFF446-994F-4F6C-821F-A3E3967413F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AFF446-994F-4F6C-821F-A3E3967413F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AFF446-994F-4F6C-821F-A3E3967413F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AFF446-994F-4F6C-821F-A3E3967413F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E3DDED-6471-4E7B-B4D8-6AE5FCD864BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E3DDED-6471-4E7B-B4D8-6AE5FCD864BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E3DDED-6471-4E7B-B4D8-6AE5FCD864BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E3DDED-6471-4E7B-B4D8-6AE5FCD864BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33932A6D-4422-4FFA-A6A6-665C378C1C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33932A6D-4422-4FFA-A6A6-665C378C1C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33932A6D-4422-4FFA-A6A6-665C378C1C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33932A6D-4422-4FFA-A6A6-665C378C1C95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
