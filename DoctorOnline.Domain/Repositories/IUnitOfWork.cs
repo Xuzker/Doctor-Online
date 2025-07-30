@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DoctorOnline.Domain.Interfaces
+namespace DoctorOnline.Domain.Repositories
 {
-    public interface IDomainEvent
+    public interface IUnitOfWork
     {
-        DateTime OccurredOn { get; }
+        Task SaveChangesAsync();
     }
 }

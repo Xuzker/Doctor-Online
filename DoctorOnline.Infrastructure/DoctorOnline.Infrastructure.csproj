@@ -1,6 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DoctorOnline.Application\DoctorOnline.Application.csproj" />
     <ProjectReference Include="..\DoctorOnline.Domain\DoctorOnline.Domain.csproj" />
   </ItemGroup>

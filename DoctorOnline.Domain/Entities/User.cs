@@ -20,9 +20,10 @@ namespace DoctorOnline.Domain.Entities
         public Guid Id { get; }
         public Name Name { get; }
         public Email Email { get; }
-
         public static Result<User> Create(Name name, Email email)
         {
+            if (name == null || email == null)
+                return Result.Failure<User>($"Name or Email cannot null");
             var user = new User(Guid.NewGuid(), name, email);
             return Result.Success(user);
         }
